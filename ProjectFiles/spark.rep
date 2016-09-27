@@ -1,0 +1,99 @@
+           *******************************************************
+                         Report of SPARK Examination
+                              Examiner GPL 2012
+             Copyright (C) 2012 Altran Praxis Limited, Bath, U.K.
+           *******************************************************
+
+
+                        DATE : 27-SEP-2016 12:31:27.01
+
+Options:
+    noswitch
+    noindex_file
+    nowarning_file
+    notarget_compiler_data
+    noconfig_file
+    source_extension=ada
+    listing_extension=lst
+    nodictionary_file
+    report_file=spark.rep
+    nohtml
+    nostatistics
+    fdl_identifiers=accept
+    flow_analysis=auto
+    language=95
+    profile=sequential
+    annotation_character=#
+    rules=lazy
+    error_explanations=off
+    justification_option=full
+    output_directory=.
+    output_directory (actual)=/home/cs4/rm471/Documents/FourthYear/RigMethods/ProjectFiles/
+
+Selected files:
+   sensors.ads
+   sensors.adb
+
+
+No Index files were used
+
+
+No Meta Files used
+
+
+Full warning reporting selected
+
+
+Source Filename(s) used were:
+   /home/cs4/rm471/Documents/FourthYear/RigMethods/ProjectFiles/sensors.ads
+   /home/cs4/rm471/Documents/FourthYear/RigMethods/ProjectFiles/sensors.adb
+
+
+
+Source Filename:   /home/cs4/rm471/Documents/FourthYear/RigMethods/ProjectFiles/sensors.ads
+Listing Filename:  /home/cs4/rm471/Documents/FourthYear/RigMethods/ProjectFiles/sensors.lst
+
+   Unit name:  Sensors
+   Unit type:  package specification
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/rm471/Documents/FourthYear/RigMethods/ProjectFiles/sensors.adb
+Listing Filename:  /home/cs4/rm471/Documents/FourthYear/RigMethods/ProjectFiles/sensors.lst
+
+   Unit name:  Sensors
+   Unit type:  package body
+   Unit has been analysed, any errors are listed below.
+
+6 error(s) or warning(s)
+
+Line
+   6      Sensor_Type := Sensor_Type.Proceed;
+          ^1             ^3
+*** (  1)  Semantic Error    :609: This entity cannot be assigned to [Ada LRM 5.2(2)].
+--- (  2)  Warning           :430: SLI generation abandoned owing to syntax or 
+           semantic errors or multiple units in a single source file.
+*** (  3)  Semantic Error    :  5: Illegal use of identifier Sensor_Type.
+
+   7  end Sensors;
+          ^4,5,6
+*** (  4)  Semantic Error    : 29: The subprogram Write_Sensors, declared in the 
+           package specification, does not have an associated body [Ada LRM 
+           6.1(20)].
+*** (  5)  Semantic Error    : 29: The subprogram Read_Sensor, declared in the 
+           package specification, does not have an associated body [Ada LRM 
+           6.1(20)].
+*** (  6)  Semantic Error    : 29: The subprogram Read_Sensor_Majority, declared in 
+           the package specification, does not have an associated body [Ada LRM 
+           6.1(20)].
+
+Note: Automatic flow analysis mode selected
+
+
+References used:
+Ada LRM:     Ada Reference Manual (ISO/IEC 8652:1995)
+
+
+--End of file--------------------------------------------------
