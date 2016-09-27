@@ -1,0 +1,35 @@
+V "SPARK 2012"
+A -noswitch
+A -noindex_file
+A -nowarning_file
+A -notarget_compiler_data
+A -noconfig_file
+A -source_extension=ada
+A -listing_extension=lst
+A -nodictionary_file
+A -report_file=spark.rep
+A -nohtml
+A -nostatistics
+A -fdl_identifiers=accept
+A -flow_analysis=auto
+A -language=95
+A -profile=sequential
+A -annotation_character=#
+A -rules=lazy
+A -error_explanations=off
+A -justification_option=full
+A -output_directory=.
+A -output_directory (actual)=/home/cs4/rm471/Documents/FourthYear/RigMethods/Lab2/
+P
+R
+
+U Max%b max.adb
+U Max%s max.ads
+
+D max.ads 00000000000000 00000000
+D max.adb 00000000000000 00000000
+
+X 1 max.ads
+5i22 X 6r20
+5i25 Y 6r23
+5i40 Z 6m13

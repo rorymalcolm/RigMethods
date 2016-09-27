@@ -1,0 +1,32 @@
+           *******************************************************
+                            Listing of SPARK Text
+                              Examiner GPL 2012
+             Copyright (C) 2012 Altran Praxis Limited, Bath, U.K.
+           *******************************************************
+
+
+                        DATE : 16-SEP-2016 09:39:19.70
+
+Line
+   1  package body Min
+   2  is
+   3  
+   4      procedure Int_Min(X,Y: in Integer; Z: out Integer)
+   5      is
+   6      begin
+   7      if X <= Y then
+   8           Z := X;
+   9      else
+  10           Z := Y;
+  11      end if;
+  12      end Int_Min;
+
++++        Flow analysis of subprogram Int_Min performed 
+           (information-flow mode): no errors found.
+
+  13  end Min;
+
+Note: Flow analysis mode is automatic
+
+
+--End of file--------------------------------------------------

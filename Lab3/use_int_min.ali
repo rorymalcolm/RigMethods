@@ -1,0 +1,68 @@
+V "GNAT Lib v4.4"
+M P W=b
+P SS ZX
+R nnnnnnnnnnnnnnnvnnvnnnvnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U use_int_min%b		use_int_min.adb		6ae0efb1 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W min%s			min.adb			min.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20090114110545 9c7dd3ea
+D a-except.ads		20090414134449 b54b55de
+D a-finali.ads		20090414134820 9eaacebd
+D a-filico.ads		20090414134951 9299732a
+D a-ioexce.ads		20090114110546 be0900a0
+D a-stream.ads		20090414134419 34aca5be
+D a-tags.ads		20090414134730 bfa07446
+D a-textio.ads		20090414134822 fe8af46e
+D a-tiinau.ads		20090414134512 2625f681
+D a-tiinio.ads		20090414134653 949a7272
+D a-tiinio.adb		20090414134651 cf5588a9
+D a-unccon.ads		20090114110545 51e09df2
+D interfac.ads		20090414134625 a69cad5c
+D i-cstrea.ads		20090414134744 e1e064a9
+D min.ads		20160916083541 e0efbd3b
+D system.ads		20090414134649 df55302f
+D s-crtl.ads		20090414134633 997234a1
+D s-exctab.ads		20090414134921 5c1c61ae
+D s-ficobl.ads		20090414134918 8bb681e5
+D s-finimp.ads		20090414135057 9449f4cb
+D s-finroo.ads		20090414134701 1408f9d1
+D s-parame.ads		20090414134647 f32e56e9
+D s-secsta.ads		20090414134519 7bae3621
+D s-soflin.ads		20090414134425 0c6fd39d
+D s-stache.ads		20090414134825 257b3be8
+D s-stalib.ads		20090414135007 52b793d5
+D s-stoele.ads		20090414134841 ed966df3
+D s-stoele.adb		20090414134835 e9998c78
+D s-stratt.ads		20090414134859 fef7c1da
+D s-traent.ads		20090414134453 bd5f2753
+D s-unstyp.ads		20090414134601 c0f9fae5
+D s-wchcon.ads		20090414134706 ab028799
+D text_io.ads		20090114110545 7c37c8ff
+D use_int_min.adb	20160916083902 f6389a75
+X 8 a-textio.ads
+166U14*New_Line 34|10r15 17r46
+242U14*Put 34|11r15 13r15 16r15
+X 10 a-tiinio.ads
+45k21*Integer_IO 84e27 34|4r41
+55U14 Get 34|12r21[4] 14r21[4]
+65U14 Put 34|17r21[4]
+X 15 min.ads
+1K9*Min 5e8 34|1w15 15r7
+3U14*Int_Min 34|15r11
+X 33 text_io.ads
+24K9*Text_IO=24:29 34|1w6 4r33 10r7 11r7 13r7 16r7 17r38
+X 34 use_int_min.adb
+2U11*Use_Int_Min 2b11 20l5 20t16
+4K12 Integer_INOUT[10|45] 12r7 14r7 17r7
+6i4 X_Value{integer} 12m25 15r19
+6i13 Y_Value{integer} 14m25 15r28
+6i22 Z_Value{integer} 15m37 17r25
+

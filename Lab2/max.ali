@@ -1,0 +1,18 @@
+V "GNAT Lib v4.4"
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U max%b			max.adb			bb68c521 NE OO PK
+
+U max%s			max.ads			f84289f0 EE NE OO PK
+
+D max.ads		20160916082021 f84289f0
+D max.adb		20160916082838 432a4cd1
+D system.ads		20090414134649 df55302f
+X 1 max.ads
+3K9*Max 7l5 7e8 2|1b14 13l5 13t8
+5U14*Int_Max 5>22 5>25 5<40 2|4b15 12l9 12t16
+5i22 X{integer} 2|4b23 7r8 8r15
+5i25 Y{integer} 2|4b25 7r13 10r15
+5i40 Z{integer} 2|4b40 8m10 10m10
+

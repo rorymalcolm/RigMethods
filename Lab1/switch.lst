@@ -1,0 +1,34 @@
+           *******************************************************
+                            Listing of SPARK Text
+                              Examiner GPL 2012
+             Copyright (C) 2012 Altran Praxis Limited, Bath, U.K.
+           *******************************************************
+
+
+                        DATE : 16-SEP-2016 09:02:53.78
+
+Line
+   1  
+   2  package body Switch
+   3  is
+   4  
+   5     procedure Int_Switch(X, Y: in out Integer)
+   6     is
+   7  
+   8        T: Integer;
+   9  
+  10     begin
+  11        T:=X;
+  12        X:=Y;
+  13        Y:=T;
+  14     end Int_Switch;
+
++++        Flow analysis of subprogram Int_Switch performed 
+           (information-flow mode): no errors found.
+
+  15  end Switch;
+
+Note: Flow analysis mode is automatic
+
+
+--End of file--------------------------------------------------

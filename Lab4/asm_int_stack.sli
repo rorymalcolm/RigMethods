@@ -1,0 +1,41 @@
+V "SPARK 2012"
+A -noswitch
+A -noindex_file
+A -nowarning_file
+A -notarget_compiler_data
+A -noconfig_file
+A -source_extension=ada
+A -listing_extension=lst
+A -nodictionary_file
+A -report_file=spark.rep
+A -nohtml
+A -nostatistics
+A -fdl_identifiers=accept
+A -flow_analysis=auto
+A -language=95
+A -profile=sequential
+A -annotation_character=#
+A -rules=lazy
+A -error_explanations=off
+A -justification_option=full
+A -output_directory=.
+A -output_directory (actual)=/home/cs4/rm471/Documents/FourthYear/RigMethods/Lab4/
+P
+R
+
+U ASM_Int_Stack%b asm_int_stack.adb
+U ASM_Int_Stack%s asm_int_stack.ads
+
+D asm_int_stack.ads 00000000000000 00000000
+D asm_int_stack.adb 00000000000000 00000000
+
+X 1 asm_int_stack.ads
+3H12 Data 11m16 4r20 10r22 11r26 18r18 20r23 2|8O4
+3H18 Pointer 12m16 21m16 4r26 7r18 10r28 11r32 12r29 15r18 19r23
+. 20r29 21r29 2|9O4
+6V13 Full 7>18
+9U14 Push 10=22 10=28
+9i19 X 11r41
+14V13 Empty 15>18
+17U14 Pop 19=23 18>18
+17i18 Y 20m16

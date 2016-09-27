@@ -1,0 +1,19 @@
+V "GNAT Lib v4.4"
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U switch%b		switch.adb		14d4a70d NE OO PK
+
+U switch%s		switch.ads		fd331a18 EE NE OO PK
+
+D switch.ads		20160916080224 fd331a18
+D switch.adb		20160916080226 e9e7bd15
+D system.ads		20090414134649 df55302f
+X 1 switch.ads
+3K9*Switch 10l5 10e11 2|2b14 15l5 15t11
+6U14*Int_Switch 6=25 6=28 2|5b14 14l8 14t18
+6i25 X{integer} 2|5b25 11r10 12m7
+6i28 Y{integer} 2|5b28 12r10 13m7
+X 2 switch.adb
+8i7 T{integer} 11m7 13r10
+

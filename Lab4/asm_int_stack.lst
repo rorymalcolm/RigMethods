@@ -1,0 +1,77 @@
+           *******************************************************
+                            Listing of SPARK Text
+                              Examiner GPL 2012
+             Copyright (C) 2012 Altran Praxis Limited, Bath, U.K.
+           *******************************************************
+
+
+                        DATE : 23-SEP-2016 10:08:12.64
+
+Line
+   1  
+   2  package body ASM_Int_Stack
+   3  is
+   4     Stack_Size: constant:=4;
+   5     type Pointer_Range is range 0..Stack_Size;
+   6     subtype Index_Range is Pointer_Range range 1..Stack_Size;
+   7     type Vector is array(Index_Range) of Integer;
+   8     Data: Vector;
+   9     Pointer: Pointer_Range;
+  10  
+  11     function Full return Boolean
+  12     is
+  13     begin
+  14        return Pointer = Stack_Size;   
+  15     end Full;
+
++++        Flow analysis of subprogram Full performed 
+           (information-flow mode): no errors found.
+
+  16  
+  17     procedure Push(X: in Integer)
+  18     is
+  19     begin
+  20        Pointer:= Pointer + 1;
+  21        Data(Pointer):= X;
+  22     end Push;
+
++++        Flow analysis of subprogram Push performed 
+           (information-flow mode): no errors found.
+
+  23     
+  24     function Empty return Boolean
+  25     is
+  26     begin
+  27        return Pointer = 0;
+  28     end Empty;
+
++++        Flow analysis of subprogram Empty performed 
+           (information-flow mode): no errors found.
+
+  29  	
+  30     procedure Pop(Y: out Integer)
+  31     is
+  32     begin
+  33        Y := Data(Pointer);
+  34        Pointer := Pointer -1;
+  35     end Pop;
+
++++        Flow analysis of subprogram Pop performed 
+           (information-flow mode): no errors found.
+
+  36       
+  37  begin
+  38     Pointer:= 0;
+  39     Data:= Vector'(Index_Range => 0);
+  40  end ASM_Int_Stack;
+
++++        Flow analysis of package initialization 
+           performed: no errors found.
+
+  41  
+  42  
+
+Note: Flow analysis mode is automatic
+
+
+--End of file--------------------------------------------------

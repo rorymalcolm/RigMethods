@@ -1,0 +1,75 @@
+           *******************************************************
+                         Report of SPARK Examination
+                              Examiner GPL 2012
+             Copyright (C) 2012 Altran Praxis Limited, Bath, U.K.
+           *******************************************************
+
+
+                        DATE : 16-SEP-2016 09:02:53.81
+
+Options:
+    noswitch
+    noindex_file
+    nowarning_file
+    notarget_compiler_data
+    noconfig_file
+    source_extension=ada
+    listing_extension=lst
+    nodictionary_file
+    report_file=spark.rep
+    nohtml
+    nostatistics
+    fdl_identifiers=accept
+    flow_analysis=auto
+    language=95
+    profile=sequential
+    annotation_character=#
+    rules=lazy
+    error_explanations=off
+    justification_option=full
+    output_directory=.
+    output_directory (actual)=/home/cs4/rm471/Documents/FourthYear/RigMethods/Lab1/
+
+Selected files:
+   switch.ads
+   switch.adb
+
+
+No Index files were used
+
+
+No Meta Files used
+
+
+Full warning reporting selected
+
+
+Source Filename(s) used were:
+   /home/cs4/rm471/Documents/FourthYear/RigMethods/Lab1/switch.ads
+   /home/cs4/rm471/Documents/FourthYear/RigMethods/Lab1/switch.adb
+
+
+
+Source Filename:   /home/cs4/rm471/Documents/FourthYear/RigMethods/Lab1/switch.ads
+Listing Filename:  /home/cs4/rm471/Documents/FourthYear/RigMethods/Lab1/switch.lst
+
+   Unit name:  Switch
+   Unit type:  package specification
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+
+Source Filename:   /home/cs4/rm471/Documents/FourthYear/RigMethods/Lab1/switch.adb
+Listing Filename:  /home/cs4/rm471/Documents/FourthYear/RigMethods/Lab1/switch.lst
+
+   Unit name:  Switch
+   Unit type:  package body
+   Unit has been analysed, any errors are listed below.
+
+No errors found
+
+Note: Automatic flow analysis mode selected
+
+
+--End of file--------------------------------------------------
